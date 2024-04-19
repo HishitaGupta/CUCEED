@@ -119,3 +119,6 @@ videocon.addEventListener("mouseleave",function(){
     // sr.reveal('.e, .send__img',{
     //     origin:'right'
     // })
+
+   
+ 
