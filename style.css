@@ -104,7 +104,7 @@ nav h3 {
 }
 
 #center {
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     /* background-color: orange; */
     display: flex;
@@ -139,7 +139,7 @@ nav h3 {
     position: relative;
     right: -10px;
     /* top: 70%; */
-    height: 40vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -151,10 +151,12 @@ nav h3 {
 text-align: right;
 padding-top: 10px;
 position: absolute;
-top:26.5%;
-right: 5.5%;
+top:26%;
+right: 6%;
 font-size: 3vh;
 /* z-index: 10; */
+font-style: italic;
+font-weight: 200;
 }
 
 #page1 video {
@@ -182,8 +184,8 @@ font-size: 3vh;
     position: absolute;
     width: 46vw;
     height: 46vw;
-    right: 0;
-    top: 61vh;
+    right: -10%;
+    top: 62vh;
 }
 
 #hero-1 {
@@ -192,7 +194,7 @@ font-size: 3vh;
     width: 100%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
-    filter: blur(10px);
+    filter: blur(30px);
     position: absolute;
     
 }
@@ -209,7 +211,7 @@ font-size: 3vh;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    filter: blur(25px);
+    filter: blur(45px);
 }
 
 #hero-3 {
@@ -218,7 +220,56 @@ font-size: 3vh;
     position: absolute;
     width: 30vw;
     border-radius: 50%;
-    filter: blur(25px);
+    filter: blur(45px);
+    animation-name: anime1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#hero-shape1 {
+    position: absolute;
+    width: 25vw;
+    height: 25vh;
+    left: 0;
+    top: 0vh;
+   transform: rotate(180deg);
+}
+
+#hero-11 {
+    background-color: #FE320A;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(100px);
+    position: absolute;
+    
+}
+
+#hero-21 {
+    background: linear-gradient(#FE320A, #fe3f0a);
+
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    filter: blur(205px);
+}
+
+#hero-31 {
+    background: linear-gradient(#FE320A, #fe3f0a);
+    height: 20vw;
+    position: absolute;
+    width: 20vw;
+    border-radius: 50%;
+    filter: blur(205px);
     animation-name: anime1;
     animation-duration: 4s;
     animation-timing-function: linear;
