@@ -28,6 +28,8 @@ function swiperAnimation() {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
         centeredSlides: true,
+        loop:true,
+        mousewheel:true
         // spaceBetween: 100,
     });
 }
