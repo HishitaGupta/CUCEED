@@ -598,7 +598,7 @@ font-weight: 200;
     border-left: 1px solid #aeadad;
     padding: 0 2vw;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     /* background-color: #fe3f0a; */
 }
 .inside-swiper{
@@ -619,6 +619,15 @@ font-weight: 200;
 }
 
 .inside-swiper h5{
+    font-size: 2vh;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 100;
+    /* font-style: italic; */
+}
+.inside-swiper h3{
+    font-size: 3vh;
+    padding-top: 15px;
     text-align: center;
 }
 #page5 {
