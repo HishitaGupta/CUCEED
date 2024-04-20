@@ -25,7 +25,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     user-select: none;
 }
 
@@ -762,6 +762,7 @@ color: #aeadad;
     border-bottom-right-radius: 20px;
 
 }
+
 
 @media (max-width:600px) {
 
