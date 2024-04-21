@@ -26,7 +26,7 @@ html, body {
     height: 100%;
     width: 100%;
     user-select: none;
-overflow: hidden;
+/* overflow: hidden; */
 }
 
 
@@ -45,6 +45,7 @@ overflow: hidden;
     background-color: #EFEAE3;
     position: relative;
     padding: 0 2vw;
+    top: 0;
 }
 
 
