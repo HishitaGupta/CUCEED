@@ -141,22 +141,8 @@ nav h3 {
     align-items: center;
     flex-direction: column;
 }
-#center h1 {
-    font-size: 14vw;
-    text-align: right;
-    line-height: 8vw;
-    padding-bottom: 20px;
-    /* align-self: center; */
-    padding-top: 20px;
-    position: relative;
-    right: -10px;
-    /* top: 70%; */
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 
-}
+
 
 
 #right h3 {
