@@ -103,7 +103,7 @@ videocon.addEventListener("mouseleave",function(){
     })
 
  
-    ScrollReveal().reveal('.scrollreveal' ,{ origin: 'bottom', duration:1800 ,distance:'30px' , reset:true, interval:200 });
+    // ScrollReveal().reveal('.scrollreveal' ,{ origin: 'bottom', duration:1800 ,distance:'30px' , reset:true, interval:200 });
   
     // const sr = ScrollReveal({
     //     distance: '30px',
