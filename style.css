@@ -62,7 +62,7 @@ nav {
     align-items: center;
     position: relative;
     z-index: 100;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #nav-part2 {
@@ -945,6 +945,7 @@ button i{
     #nav-part2 {
         display: flex;
         align-items: center;
+        /* justify-content: center; */
         gap: 3vw;
         display: none;
     }
